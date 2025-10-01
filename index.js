@@ -3,7 +3,7 @@ let currentIndex = 0;
 let themes = {}
 
 async function loadThemes(){
-    const res = await fetch('assets/themes.json');
+    const res = await fetch('./assets/themes.json');
     themes = await res.json();
     themeNames = Object.keys(themes);
     applyTheme(themeNames[0]);
