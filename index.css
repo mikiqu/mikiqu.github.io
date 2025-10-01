@@ -48,6 +48,12 @@ a {
     color: #d0bcfe;
     background-color: rgba(77, 61, 117, 0.27);
     display: inline-block;
+
+    transition: background-color 0.3s ease;
+}
+
+.code-skill:hover {
+    background-color: rgba(77, 61, 117, 0.8);
 }
 
 .talent-skill {
