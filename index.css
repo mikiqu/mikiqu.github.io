@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background: #0f0d13;
+    font-family: "Google Sans Code", monospace;
+    font-style: normal;
+}
+
+h1 {
+    color: #d0bcfe;
+}
+
+p {
+    color: #e6e0e9;
+}
+
+a {
+    color: #e6e0e9;
+    padding: 2px;
+    text-decoration: none;
+}
+
+.container {
+    background-color: #1a181f;
+    border-radius: 14px;
+    padding: 10px 10px 25px 25px;
+    width:  70%;
+    max-width: 550px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 2px solid transparent;
+    transition: border-color 0.5s ease;
+}
+
+.container:hover {
+    border-color: #d0bcfe;
+}
+
+.code-skill {
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 14px;
+    border: 2px solid #d0bcfe;
+    color: #d0bcfe;
+    background-color: rgba(77, 61, 117, 0.27);
+    display: inline-block;
+}
+
+.talent-skill {
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 14px;
+    border: 2px solid #f0b8c7;
+    color: #f0b8c7;
+    background-color: rgba(99, 59, 72, 0.41);
+    display: inline-block;
+}
