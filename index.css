@@ -1,27 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
 
+:root {
+    --surface: #0f0d13;
+    --surface-container: #1e1c21;
+    --primary: #d4bbfc;
+    --primary-2: #3a255b;
+    --secondary: #cec2db;
+    --secondary-2: #342d40;
+    --tertiary: #f1b7c3;
+    --tertiary-2: #4b252f;
+
+    --surface-text: #e7e0e8;
+    --primary-text: #ecdcff;
+    --secondary-text: #eadef7;
+    --tertiary-text: #ffd9e0;
+
+    --code-skill-background: rgba(77, 61, 117, 0.3);
+    --code-skill-background-hover: rgba(77, 61, 117, 0.8);
+
+    --talent-skill-background: rgba(99, 59, 72, 0.3);
+    --talent-skill-background-hover: rgba(99, 59, 72, 0.8);
+}
+
 body {
-    background: #0f0d13;
+    background: var(--surface);
     font-family: "Google Sans Code", monospace;
     font-style: normal;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 h1 {
-    color: #d0bcfe;
+    color: var(--primary);
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 p {
-    color: #e6e0e9;
+    color: var(--surface-text);
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 a {
-    color: #e6e0e9;
+    color: var(--surface-text);
     padding: 2px;
     text-decoration: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .container {
-    background-color: #1a181f;
+    background-color: var(--surface-container);
     border-radius: 14px;
     padding: 10px 10px 25px 25px;
     width:  70%;
@@ -33,35 +59,51 @@ a {
     transform: translate(-50%, -50%);
 
     border: 2px solid transparent;
-    transition: border-color 0.5s ease;
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
 }
 
 .container:hover {
-    border-color: #d0bcfe;
+    border-color: var(--primary);
 }
 
 .code-skill {
     border-radius: 8px;
     padding: 5px;
     font-size: 14px;
-    border: 2px solid #d0bcfe;
-    color: #d0bcfe;
-    background-color: rgba(77, 61, 117, 0.27);
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    background-color: var(--code-skill-background);
     display: inline-block;
 
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
 }
 
 .code-skill:hover {
-    background-color: rgba(77, 61, 117, 0.8);
+    background-color: var(--code-skill-background-hover);
 }
 
 .talent-skill {
     border-radius: 8px;
     padding: 5px;
     font-size: 14px;
-    border: 2px solid #f0b8c7;
-    color: #f0b8c7;
-    background-color: rgba(99, 59, 72, 0.41);
+    border: 2px solid var(--tertiary);
+    color: var(--tertiary);
+    background-color: var(--talent-skill-background);
     display: inline-block;
+
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+.talent-skill:hover {
+    background-color: var(--talent-skill-background-hover);
+}
+
+.colour-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    color: var(--primary);
+    transition: background-color 0.5s ease, color 0.5s ease;
 }
