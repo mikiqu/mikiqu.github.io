@@ -92,7 +92,7 @@
     "primary-text": "#ffd9e2",
     "secondary-text": "#ffd9e2",
     "tertiary-text": "#ffdcc2",
-    "primary-tag-background": "rgba(255, 176, 200 0.27)",
+    "primary-tag-background": "rgba(255, 176, 200, 0.27)",
     "primary-tag-background-hover": "rgba(255, 176, 200, 0.5)",
     "secondary-tag-background": "rgba(227, 189, 198, 0.41)",
     "secondary-tag-background-hover": "rgba(227, 189, 198, 0.5)",
