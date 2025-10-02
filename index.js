@@ -16,7 +16,7 @@ function applyTheme(themeName){
     }
 }
 
-document.getElementById('colour-button').addEventListener('click', () => {
+document.getElementById('theme-button').addEventListener('click', () => {
     currentIndex = (currentIndex + 1) % themeNames.length;
     applyTheme(themeNames[currentIndex]);
 });

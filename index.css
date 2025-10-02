@@ -15,11 +15,14 @@
     --secondary-text: #eadef7;
     --tertiary-text: #ffd9e0;
 
-    --code-skill-background: rgba(77, 61, 117, 0.3);
-    --code-skill-background-hover: rgba(77, 61, 117, 0.8);
+    --primary-tag-background: rgba(212, 187, 252, 0.27);
+    --primary-tag-background-hover: rgba(212, 187, 252, 0.5);
 
-    --talent-skill-background: rgba(99, 59, 72, 0.3);
-    --talent-skill-background-hover: rgba(99, 59, 72, 0.8);
+    --secondary-tag-background: rgba(206, 194, 219, 0.41);
+    --secondary-tag-background-hover: rgba(206, 194, 219, 0.5);
+
+    --tertiary-tag-background: rgba(241, 183, 195, 0.41);
+    --tertiary-tag-background-hover: rgba(241, 183, 195, 0.5);
 }
 
 body {
@@ -66,39 +69,64 @@ a {
     border-color: var(--primary);
 }
 
-.code-skill {
+.primary-tag {
     border-radius: 8px;
     padding: 5px;
     font-size: 14px;
     border: 2px solid var(--primary);
     color: var(--primary);
-    background-color: var(--code-skill-background);
+    background-color: var(--primary-tag-background);
     display: inline-block;
+    user-select: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
 
     transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
 }
 
-.code-skill:hover {
-    background-color: var(--code-skill-background-hover);
+.primary-tag:hover {
+    background-color: var(--primary-tag-background-hover);
 }
 
-.talent-skill {
+.secondary-tag {
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 14px;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    background-color: var(--secondary-tag-background);
+    display: inline-block;
+    user-select: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+    transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
+}
+
+.secondary-tag:hover {
+    background-color: var(--secondary-tag-background-hover);
+}
+
+.tertiary-tag {
     border-radius: 8px;
     padding: 5px;
     font-size: 14px;
     border: 2px solid var(--tertiary);
     color: var(--tertiary);
-    background-color: var(--talent-skill-background);
+    background-color: var(--tertiary-tag-background);
     display: inline-block;
+    user-select: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
 
     transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease;
 }
 
-.talent-skill:hover {
-    background-color: var(--talent-skill-background-hover);
+.tertiary-tag:hover {
+    background-color: var(--tertiary-tag-background-hover);
 }
 
-.colour-button {
+.theme-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
