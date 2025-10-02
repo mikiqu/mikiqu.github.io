@@ -1,5 +1,5 @@
 {
-  "default": {
+  "night": {
     "surface": "#0f0d13",
     "surface-container": "#1e1c21",
     "primary": "#d4bbfc",
@@ -19,7 +19,7 @@
     "tertiary-tag-background": "rgba(241, 183, 195, 0.41)",
     "tertiary-tag-background-hover": "rgba(241, 183, 195, 0.5)"
   },
-  "warm": {
+  "warmth": {
     "surface": "#19120c",
     "surface-container": "#261e18",
     "primary": "#ffb878",
@@ -39,7 +39,7 @@
     "tertiary-tag-background": "rgba(194, 203, 152, 0.41)",
     "tertiary-tag-background-hover": "rgba(194, 203, 152, 0.5)"
   },
-  "nature": {
+  "natural": {
     "surface": "#13140d",
     "surface-container": "#1f2019",
     "primary": "#c0ce7e",
@@ -58,5 +58,45 @@
     "secondary-tag-background-hover": "rgba(197, 201, 168, 0.5)",
     "tertiary-tag-background": "rgba(162, 208, 195, 0.41)",
     "tertiary-tag-background-hover": "rgba(162, 208, 195, 0.5)"
+  },
+  "glacier": {
+    "surface": "#0e1415",
+    "surface-container": "#1a2121",
+    "primary": "#80d4da",
+    "primary-2": "#00373a",
+    "secondary": "#b1cbce",
+    "secondary-2": "#1b3436",
+    "tertiary": "#b6c7ea",
+    "tertiary-2": "#20314c",
+    "surface-text": "#dde4e4",
+    "primary-text": "#9cf0f7",
+    "secondary-text": "#cce8ea",
+    "tertiary-text": "#d6e3ff",
+    "primary-tag-background": "rgba(128, 212, 218, 0.27)",
+    "primary-tag-background-hover": "rgba(128, 212, 218, 0.5)",
+    "secondary-tag-background": "rgba(177, 203, 206, 0.41)",
+    "secondary-tag-background-hover": "rgba(177, 203, 206, 0.5)",
+    "tertiary-tag-background": "rgba(182, 199, 234, 0.41)",
+    "tertiary-tag-background-hover": "rgba(182, 199, 234, 0.5)"
+  },
+  "rose": {
+    "surface": "#191113",
+    "surface-container": "#261d20",
+    "primary": "#ffb0c8",
+    "primary-2": "#541d32",
+    "secondary": "#e3bdc6",
+    "secondary-2": "#422931",
+    "tertiary": "#efbd94",
+    "tertiary-2": "#48290c",
+    "surface-text": "#efdfe1",
+    "primary-text": "#ffd9e2",
+    "secondary-text": "#ffd9e2",
+    "tertiary-text": "#ffdcc2",
+    "primary-tag-background": "rgba(255, 176, 200 0.27)",
+    "primary-tag-background-hover": "rgba(255, 176, 200, 0.5)",
+    "secondary-tag-background": "rgba(227, 189, 198, 0.41)",
+    "secondary-tag-background-hover": "rgba(227, 189, 198, 0.5)",
+    "tertiary-tag-background": "rgba(239, 189, 148, 0.41)",
+    "tertiary-tag-background-hover": "rgba(239, 189, 148, 0.5)"
   }
 }
